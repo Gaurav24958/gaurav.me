@@ -1,0 +1,108 @@
+/* Ireland Chapter — Decorative & Aesthetic Rules Only */
+
+[data-chapter="ireland"] h1 {
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+[data-chapter="ireland"] .hero-label {
+  color: var(--color-accent-2);
+  font-weight: 500;
+}
+
+[data-chapter="ireland"] .hero-sub {
+  color: var(--color-text);
+}
+
+[data-chapter="ireland"] .hero-desc {
+  color: var(--color-text-muted);
+}
+
+/* Cool, Atmospheric Aesthetic */
+[data-chapter="ireland"] .card {
+  background: linear-gradient(135deg, var(--color-bg-alt) 0%, #EEF3F0 100%);
+}
+
+[data-chapter="ireland"] .card:hover {
+  background: linear-gradient(135deg, var(--color-bg-alt) 0%, #F2F8F5 100%);
+}
+
+/* Timeline accent for Ireland */
+[data-chapter="ireland"] .timeline-item::before {
+  background-color: var(--color-accent-2);
+  box-shadow: 0 0 0 3px var(--color-accent-2);
+  opacity: 0.9;
+}
+
+/* Tab active accent */
+[data-chapter="ireland"] .tab-btn.active {
+  color: var(--color-accent-2);
+  border-bottom-color: var(--color-accent-2);
+}
+
+/* Stat values */
+[data-chapter="ireland"] .stat-value {
+  color: var(--color-accent-2);
+}
+
+/* Link styling */
+[data-chapter="ireland"] a {
+  color: var(--color-accent-2);
+}
+
+[data-chapter="ireland"] a:hover {
+  color: var(--color-accent);
+}
+
+/* Tags with cool aesthetic */
+[data-chapter="ireland"] .tag {
+  background-color: rgba(45, 106, 79, 0.08);
+  border-color: var(--color-border);
+  color: var(--color-text-muted);
+}
+
+/* Button styling for Ireland */
+[data-chapter="ireland"] button.btn,
+[data-chapter="ireland"] a.btn {
+  background-color: var(--color-accent-2);
+  border-color: var(--color-accent-2);
+}
+
+[data-chapter="ireland"] button.btn:hover,
+[data-chapter="ireland"] a.btn:hover {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+/* Stats block for Ireland */
+[data-chapter="ireland"] .stats-block {
+  background: linear-gradient(135deg, var(--color-bg-alt) 0%, #EEF3F0 100%);
+  border-color: var(--color-border);
+}
+
+/* Prose styling for Ireland */
+[data-chapter="ireland"] .prose {
+  color: var(--color-text);
+}
+
+[data-chapter="ireland"] .prose strong {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+/* Dark mode for Ireland */
+[data-chapter="ireland"][data-theme="dark"] h1 {
+  color: #F0F4F1;
+}
+
+[data-chapter="ireland"][data-theme="dark"] p {
+  color: #7FB898;
+}
+
+[data-chapter="ireland"][data-theme="dark"] .card {
+  background: linear-gradient(135deg, #152B1E 0%, #1F3A2E 100%);
+}
+
+[data-chapter="ireland"][data-theme="dark"] a {
+  color: #5FD381;
+}

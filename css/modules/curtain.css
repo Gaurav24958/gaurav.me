@@ -1,0 +1,27 @@
+.curtain {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-100%);
+  z-index: 9999;
+  pointer-events: none;
+  transition: transform 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.curtain.slide-down {
+  transform: translateY(0);
+}
+
+.curtain.slide-up {
+  transform: translateY(100%);
+}
+
+[data-chapter="india"] .curtain {
+  background: #F4A124;
+}
+
+[data-chapter="ireland"] .curtain {
+  background: #1B4332;
+}

@@ -1,0 +1,52 @@
+:root {
+  --font-heading:      'EB Garamond', Georgia, serif;
+  --font-sans:         'Inter', system-ui, sans-serif;
+  --font-mono:         'IBM Plex Mono', monospace;
+  --max-width:         960px;
+  --transition:        300ms ease;
+  --shadow-card:       0 2px 8px rgba(0,0,0,0.06);
+  --shadow-card-hover: 0 8px 28px rgba(0,0,0,0.12);
+}
+
+/* ─── India Chapter ─── */
+[data-chapter="india"] {
+  --color-bg:         #FDF6EC;   /* warm cream */
+  --color-bg-alt:     #F5ECD7;   /* deeper warm cream for cards */
+  --color-text:       #1A0F00;   /* near black, warm */
+  --color-text-muted: #6B4F2A;   /* warm muted brown */
+  --color-accent:     #E07B39;   /* terracotta orange */
+  --color-accent-2:   #C0392B;   /* deep red secondary */
+  --color-border:     #D4B896;   /* warm tan border */
+  --color-curtain:    #F4A124;   /* saffron curtain */
+  --color-nav-bg:     #1A0F00;   /* dark warm nav */
+  --color-nav-text:   #FDF6EC;
+}
+
+/* ─── Ireland Chapter ─── */
+[data-chapter="ireland"] {
+  --color-bg:         #F0F4F1;   /* cool off-white */
+  --color-bg-alt:     #E2EBE5;   /* deeper cool green-tinted white */
+  --color-text:       #0D1F15;   /* near black, cool */
+  --color-text-muted: #4A6B55;   /* cool muted green */
+  --color-accent:     #2D6A4F;   /* emerald green */
+  --color-accent-2:   #1B4332;   /* deep forest green */
+  --color-border:     #A8C5B0;   /* cool sage border */
+  --color-curtain:    #1B4332;   /* deep green curtain */
+  --color-nav-bg:     #0D1F15;   /* dark cool nav */
+  --color-nav-text:   #F0F4F1;
+}
+
+/* ─── Dark Mode Overrides ─── */
+[data-chapter="india"][data-theme="dark"] {
+  --color-bg:         #1A0F00;
+  --color-bg-alt:     #2A1A05;
+  --color-text:       #FDF6EC;
+  --color-text-muted: #C49A6C;
+}
+
+[data-chapter="ireland"][data-theme="dark"] {
+  --color-bg:         #0D1F15;
+  --color-bg-alt:     #152B1E;
+  --color-text:       #F0F4F1;
+  --color-text-muted: #7FB898;
+}

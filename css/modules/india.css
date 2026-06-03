@@ -1,0 +1,108 @@
+/* India Chapter — Decorative & Aesthetic Rules Only */
+
+[data-chapter="india"] h1 {
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+[data-chapter="india"] .hero-label {
+  color: var(--color-accent);
+  font-weight: 500;
+}
+
+[data-chapter="india"] .hero-sub {
+  color: var(--color-text);
+}
+
+[data-chapter="india"] .hero-desc {
+  color: var(--color-text-muted);
+}
+
+/* Warm, Rich Aesthetic */
+[data-chapter="india"] .card {
+  background: linear-gradient(135deg, var(--color-bg-alt) 0%, #F8EFDD 100%);
+}
+
+[data-chapter="india"] .card:hover {
+  background: linear-gradient(135deg, var(--color-bg-alt) 0%, #FBF3E6 100%);
+}
+
+/* Timeline accent for India */
+[data-chapter="india"] .timeline-item::before {
+  background-color: var(--color-accent);
+  box-shadow: 0 0 0 3px var(--color-accent);
+  opacity: 0.9;
+}
+
+/* Tab active accent */
+[data-chapter="india"] .tab-btn.active {
+  color: var(--color-accent);
+  border-bottom-color: var(--color-accent);
+}
+
+/* Stat values */
+[data-chapter="india"] .stat-value {
+  color: var(--color-accent);
+}
+
+/* Link styling */
+[data-chapter="india"] a {
+  color: var(--color-accent);
+}
+
+[data-chapter="india"] a:hover {
+  color: var(--color-accent-2);
+}
+
+/* Tags with warm aesthetic */
+[data-chapter="india"] .tag {
+  background-color: rgba(224, 123, 57, 0.08);
+  border-color: var(--color-border);
+  color: var(--color-text-muted);
+}
+
+/* Button styling for India */
+[data-chapter="india"] button.btn,
+[data-chapter="india"] a.btn {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+[data-chapter="india"] button.btn:hover,
+[data-chapter="india"] a.btn:hover {
+  background-color: var(--color-accent-2);
+  border-color: var(--color-accent-2);
+}
+
+/* Stats block for India */
+[data-chapter="india"] .stats-block {
+  background: linear-gradient(135deg, var(--color-bg-alt) 0%, #F8EFDD 100%);
+  border-color: var(--color-border);
+}
+
+/* Prose styling for India */
+[data-chapter="india"] .prose {
+  color: var(--color-text);
+}
+
+[data-chapter="india"] .prose strong {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+/* Dark mode for India */
+[data-chapter="india"][data-theme="dark"] h1 {
+  color: #FDF6EC;
+}
+
+[data-chapter="india"][data-theme="dark"] p {
+  color: #C49A6C;
+}
+
+[data-chapter="india"][data-theme="dark"] .card {
+  background: linear-gradient(135deg, #2A1A05 0%, #3D2810 100%);
+}
+
+[data-chapter="india"][data-theme="dark"] a {
+  color: #E8A557;
+}
